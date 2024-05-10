@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Eco-Explore3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="home_icon">Home</string>
+    <string name="explore_icon">Explore</string>
+    <string name="edit_profile_icon">Edit Profile</string>
+    <string name="settings_icon">Settings</string>
+    <string name="privacy_policy_icon">Privacy and Policy</string>
+    <string name="about_icon">About Us</string>
+    <string name="help_icon">Help</string>
+    <string name="contact_icon">Contact and Support</string>
+    <string name="Take_a_photo">Take a photo</string>
+    <string name="Choose_from_phone">Choose from phone</string>
+    <string name="observations_fragment">Observations Fragment</string>
+    <string name="species_fragment">Species Fragment</string>
+    <string name="third_fragment">Third Fragment</string>
+    <string name="tab_layout_description">Tabs for navigating between fragments</string>
+    <string name="view_pager_description">ViewPager for displaying fragment content</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="for_inquiries_please_email_us_at">For inquiries, please email us at:</string>
+    <string name="contact_example_com">EcoExplore@yahoo.com</string>
+    <string name="login_link">Already have an account? Login here.</string>
+    <string name="findings_fragment">Findings</string>
+    <string name="Skip">Skip</string>
+    <string name="todo">TODO</string>
+    <string name="log_in">Log In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="eco_explore">Eco-Explore</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="login_activity_label" />
+    <string name="skip">Skip</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+    <string name="sign_up1">Sign Up</string>
+    <string name="place">Place</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="register_new_user">Register New User</string>
+    <string name="login">Login</string>
+    <string name="Logout">Logout</string>
+    <string name="username">Username</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="title_activity_edit_profile">EditProfileActivity</string>
+    <string name="action_take_photo">Take Photo</string>
+    <string name="action_choose_from_device">Choose from Device</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="nature_photo_gallery">Nature Photo Gallery</string>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.eco_explore3.ui.home.HomeFragment"
+        android:label="@string/home_icon"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_explore"
+        android:name="com.example.eco_explore3.ui.explore.ExploreFragment"
+        android:label="@string/explore_icon"
+        tools:layout="@layout/fragment_explore" />
+
+    <fragment
+        android:id="@+id/nav_edit_profile"
+        android:name="com.example.eco_explore3.ui.editprofile.EditProfileFragment"
+        android:label="@string/edit_profile_icon"
+        tools:layout="@layout/fragment_edit_profile" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.eco_explore3.ui.settings.SettingsFragment"
+        android:label="@string/settings_icon"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.example.eco_explore3.ui.about.AboutFragment"
+        android:label="@string/about_icon"
+        tools:layout="@layout/fragment_about" />
+
+    <fragment
+        android:id="@+id/nav_privacy_policy"
+        android:name="com.example.eco_explore3.ui.privacy_policy.PrivacyPolicyFragment"
+        android:label="@string/privacy_policy_icon"
+        tools:layout="@layout/fragment_privacy_policy" />
+
+    <fragment
+        android:id="@+id/nav_help"
+        android:name="com.example.eco_explore3.ui.help.HelpFragment"
+        android:label="@string/help_icon"
+        tools:layout="@layout/fragment_help" />
+
+    <fragment
+        android:id="@+id/nav_contact"
+        android:name="com.example.eco_explore3.ui.contact.ContactFragment"
+        android:label="@string/contact_icon"
+        tools:layout="@layout/fragment_contact" />
+</navigation>

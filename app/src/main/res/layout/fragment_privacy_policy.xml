@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/green_background"
+    tools:context=".ui.privacy_policy.PrivacyPolicyFragment">
+
+    <ImageView
+        android:id="@+id/background_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/green_background"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textPrivacyPolicy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Privacy Policy"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="16dp"/>
+
+    <TextView
+        android:id="@+id/textPolicyContent"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="At EcoExplore, we are committed to protecting your privacy and ensuring the security of your personal information. Our app collects minimal data required for its functionality, and we do not share this information with third parties without your consent.\n\nWe may collect and store certain non-personal information automatically when you use our app, such as device information, usage statistics, and preferences. This information helps us improve the user experience and optimize our services.\n\nPlease note that this privacy policy may be subject to change, so we encourage you to review it periodically for updates.\n\nIf you have any questions or concerns about our privacy practices, please contact us at [raj449391@gmail.com]."
+        android:layout_marginTop="16dp"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textPrivacyPolicy"
+        android:padding="16dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
